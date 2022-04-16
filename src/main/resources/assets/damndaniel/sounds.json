@@ -1,0 +1,155 @@
+{
+  "music_disk.cloud_gliding": {
+    "category":  "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/cloud_gliding",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.slide_around": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/slide_around",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.morning_glow": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/morning_glow",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.flight": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/flight",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.go": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/go",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.shred": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/shred",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.dernierite": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/dernierite",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.une_chambre": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/une_chambre",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.dark_retro": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/dark_retro",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.despera": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/despera",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.intimacy": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/intimacy",
+        "stream": true
+      }
+    ]
+  },
+  "music_disk.mallsoft": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/mallsoft",
+        "stream": true
+      }
+    ]
+  },
+  "damndaniel.ambient": {
+    "category": "entity",
+    "subtitle": "subtitles.damndaniel.damndaniel_ambient",
+    "sounds": [
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel1"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel2"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel3"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel4"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel5"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel6"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel7"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damndaniel8"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/backatit1"
+      }
+    ]
+  },
+  "damndaniel.hurt": {
+    "category": "entity",
+    "subtitle": "subtitles.damndaniel.damndaniel_hurt",
+    "sounds": [
+      {
+        "name": "damndaniel:entity/damndaniel/damn1"
+      },
+      {
+        "name": "damndaniel:entity/damndaniel/damn2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:white_vans"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_cloud_gliding"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_slide_around"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_morning_glow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_flight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_go"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_shred"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_dernierite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_une_chambre"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_dark_retro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_mallsoft"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_despera"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_intimacy"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}
