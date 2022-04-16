@@ -160,11 +160,7 @@ public class DamnDanielNPC extends PathAwareEntity implements Angerable {
 
         @Override
         public boolean canStart() {
-            float f = this.mob.getBrightnessAtEyes();
-            if (f >= 0.5f) {
-                return false;
-            }
-            return super.canStart();
+            return false;
         }
     }
 }
