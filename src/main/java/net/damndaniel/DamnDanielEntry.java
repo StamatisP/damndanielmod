@@ -27,7 +27,7 @@ public class DamnDanielEntry implements ModInitializer {
 		DamnDanielItems.init();
 		DamnDanielSounds.init();
 		DamnDanielEntities.init();
-		DamnDanielSpawns.init();
+		//DamnDanielSpawns.init();
 		DamnDanielLootTables.init();
 	}
 }

@@ -19,6 +19,7 @@ public class DamnDanielSounds {
     public static final SoundEvent SOUND_MALLSOFT = register("music_disk.mallsoft");
     public static final SoundEvent SOUND_DESPERA = register("music_disk.despera");
     public static final SoundEvent SOUND_INTIMACY = register("music_disk.intimacy");
+    public static final SoundEvent SOUND_SETTANTA = register("music_disk.settanta");
 
     public static final SoundEvent SOUND_DAMNDANIEL_HURT = register("damndaniel.hurt");
     public static final SoundEvent SOUND_DAMNDANIEL_AMBIENT = register("damndaniel.ambient");

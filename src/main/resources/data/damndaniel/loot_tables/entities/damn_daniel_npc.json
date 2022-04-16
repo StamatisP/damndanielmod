@@ -59,6 +59,10 @@
         {
           "type": "minecraft:item",
           "name": "damndaniel:music_disk_intimacy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "damndaniel:music_disk_settanta"
         }
       ],
       "conditions": [

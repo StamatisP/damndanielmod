@@ -107,6 +107,15 @@
       }
     ]
   },
+  "music_disk.settanta": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "damndaniel:records/settanta",
+        "stream": true
+      }
+    ]
+  },
   "damndaniel.ambient": {
     "category": "entity",
     "subtitle": "subtitles.damndaniel.damndaniel_ambient",

@@ -20,12 +20,14 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class DamnDanielItems {
+    public static final Item WHITE_VANS = registerArmor("white_vans");
+
     public static final ItemGroup DAMNDANIEL_GROUP = FabricItemGroupBuilder.build(
             new Identifier(DamnDanielEntry.MOD_ID, "items"),
-            () -> new ItemStack(Items.MUSIC_DISC_11)
+            () -> new ItemStack(WHITE_VANS)
     );
     public static final ArmorMaterial CUSTOM_MATERIAL = new DDArmorMaterial();
-    public static final Item WHITE_VANS = registerArmor("white_vans");
+
     public static final Item DISK_CLOUD_GLIDING = registerDisk("music_disk_cloud_gliding", DamnDanielSounds.SOUND_CLOUD_GLIDING);
     public static final Item DISK_SLIDE_AROUND = registerDisk("music_disk_slide_around",DamnDanielSounds.SOUND_SLIDE_AROUND);
     public static final Item DISK_MORNING_GLOW = registerDisk("music_disk_morning_glow", DamnDanielSounds.SOUND_MORNING_GLOW);
@@ -38,6 +40,7 @@ public class DamnDanielItems {
     public static final Item DISK_MALLSOFT = registerDisk("music_disk_mallsoft", DamnDanielSounds.SOUND_MALLSOFT);
     public static final Item DISK_DESPERA = registerDisk("music_disk_despera", DamnDanielSounds.SOUND_DESPERA);
     public static final Item DISK_INTIMACY = registerDisk("music_disk_intimacy", DamnDanielSounds.SOUND_INTIMACY);
+    public static final Item DISK_SETTANTA = registerDisk("music_disk_settanta", DamnDanielSounds.SOUND_SETTANTA);
 
     public static final Item DANIEL_EGG = new SpawnEggItem(DamnDanielEntities.DANIEL_NPC, 12829384, 4675947, new Item.Settings().group(DAMNDANIEL_GROUP));
 

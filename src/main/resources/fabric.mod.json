@@ -4,13 +4,20 @@
   "version": "${version}",
 
   "name": "The Damn Daniel mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "The best official Damn Daniel Minecraft Mod!",
   "authors": [
-    "Me!"
+    "Mineturtle/Stamos",
+    "Tony Astro",
+    "Bassclefff",
+    "CaveL1ghter",
+    "Duncan Leonard/donnchaadh",
+    "Loopsdaloop/Loop2D",
+    "Hpargonohp",
+    "Hikaru_Vergon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://discord.gg/XvQgs9s",
+    "sources": "https://damndanielwva.com"
   },
 
   "license": "CC0-1.0",

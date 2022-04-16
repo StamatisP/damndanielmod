@@ -54,20 +54,10 @@ public class DamnDanielLootTables {
                         .withEntry(ItemEntry.builder(DamnDanielItems.DISK_MORNING_GLOW).build())
                         .withEntry(ItemEntry.builder(DamnDanielItems.DISK_SHRED).build())
                         .withEntry(ItemEntry.builder(DamnDanielItems.DISK_SLIDE_AROUND).build())
+                        .withEntry(ItemEntry.builder(DamnDanielItems.DISK_SETTANTA).build())
                         .build();
 
                 supplier.withPool(pool);
-            }
-            else if (DamnDanielEntities.DANIEL_NPC.getLootTableId().equals(id)) {
-                /*FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1f))
-                        .withCondition(RandomChanceLootCondition.builder(0.2f).build())
-                        .with(ItemEntry.builder(DamnDanielItems.WHITE_VANS));
-                supplier.withPool(poolBuilder.build());*/
-                DamnDanielEntry.LOGGER.info(id.toString());
-            }
-            else {
-                DamnDanielEntry.LOGGER.info(id.toString());
             }
         }));
     }

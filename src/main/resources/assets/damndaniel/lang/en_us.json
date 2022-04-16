@@ -1,4 +1,5 @@
 {
+  "entity.damndaniel.damn_daniel_npc": "Damn Daniel",
   "item.damndaniel.white_vans": "White Vans",
   "itemGroup.damndaniel.items": "Damn Daniel Items",
   "item.damndaniel.music_disk_cloud_gliding": "Music Disc",
@@ -25,6 +26,8 @@
   "item.damndaniel.music_disk_intimacy.desc": "Tony Astro - INTIMACY",
   "item.damndaniel.music_disk_mallsoft": "Music Disc",
   "item.damndaniel.music_disk_mallsoft.desc": "Tony Astro - MALLSOFT",
+  "item.damndaniel.music_disk_settanta": "Music Disc",
+  "item.damndaniel.music_disk_settanta.desc": "CaveL1ghter - Settantaquattro",
   "subtitles.damndaniel.damndaniel_ambient" : "Damn, Daniel!",
   "subtitles.damndaniel.damndaniel_hurt" : "Damn!",
   "item.damndaniel.daniel_egg": "Damn Daniel Spawn Egg"
