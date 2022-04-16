@@ -3,6 +3,7 @@ package net.damndaniel.items;
 import net.damndaniel.DamnDanielEntry;
 import net.damndaniel.DamnDanielSounds;
 import net.damndaniel.armor.DDArmorMaterial;
+import net.damndaniel.armor.ItemWhiteVans;
 import net.damndaniel.entities.DamnDanielEntities;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
@@ -54,7 +55,7 @@ public class DamnDanielItems {
 
     public static ArmorItem registerArmor(String id) {
         Item.Settings settings = new Item.Settings().group(DAMNDANIEL_GROUP).rarity(Rarity.EPIC).maxCount(1);
-        return Registry.register(Registry.ITEM, new Identifier(DamnDanielEntry.MOD_ID, id), new ArmorItem(
+        return Registry.register(Registry.ITEM, new Identifier(DamnDanielEntry.MOD_ID, id), new ItemWhiteVans(
                 CUSTOM_MATERIAL, EquipmentSlot.FEET, settings
         ));
     }
