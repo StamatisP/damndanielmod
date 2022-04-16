@@ -13,7 +13,8 @@ import net.minecraft.world.World;
 
 public class ItemWhiteVans extends ArmorItem {
 
-    StatusEffectInstance statusEffectInstance = new StatusEffectInstance(StatusEffects.SPEED, 100, 1);
+    StatusEffectInstance statusEffectInstanceSpeed = new StatusEffectInstance(StatusEffects.SPEED, 50, 1);
+    StatusEffectInstance statusEffectInstanceLuck = new StatusEffectInstance(StatusEffects.LUCK, 50, 1);
     public ItemWhiteVans(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
@@ -33,7 +34,8 @@ public class ItemWhiteVans extends ArmorItem {
     private void giveEffect(PlayerEntity player) {
         ArmorItem boots = (ArmorItem) player.getInventory().getArmorStack(0).getItem();
         if (boots.getMaterial() == DamnDanielItems.CUSTOM_MATERIAL) {
-            player.addStatusEffect(new StatusEffectInstance(statusEffectInstance.getEffectType(), statusEffectInstance.getDuration(), statusEffectInstance.getAmplifier()));
+            player.addStatusEffect(new StatusEffectInstance(statusEffectInstanceSpeed.getEffectType(), statusEffectInstanceSpeed.getDuration(), statusEffectInstanceSpeed.getAmplifier()));
+            player.addStatusEffect(new StatusEffectInstance(statusEffectInstanceLuck.getEffectType(), statusEffectInstanceLuck.getDuration(), statusEffectInstanceLuck.getAmplifier()));
         }
     }
 }
